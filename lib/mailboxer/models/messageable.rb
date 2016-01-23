@@ -76,7 +76,6 @@ module Mailboxer
           :recipients   => recipients,
           :body         => msg_body,
           :subject      => subject,
-          :pid          => pid,
           :attachment   => attachment,
           :created_at   => message_timestamp,
           :updated_at   => message_timestamp
